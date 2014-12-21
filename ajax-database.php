@@ -53,9 +53,7 @@
 						peopleHTML += "</tr>";
 					}
 				}
-
 				$("#people tbody").html(peopleHTML);
-
 			}
 		});
 	});
@@ -66,14 +64,3 @@
 	
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-

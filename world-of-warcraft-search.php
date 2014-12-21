@@ -14,8 +14,6 @@ if (!empty($_POST) && isset($_POST['search-characters'])) {
 	$avatarBase = $data['thumbnail'];
 	$avatarUrlString = "<img src='http://us.battle.net/static-render/us/". $avatarBase . "'>";
 
-
-
 }
 
 
@@ -48,7 +46,6 @@ if (!empty($_POST) && isset($_POST['search-guilds'])) {
 ?>
 
 <?php 
-
 	$title = 'World of Warcraft Search API Testing';
 	include('php/header.php'); 
 ?>
