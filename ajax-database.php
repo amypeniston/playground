@@ -1,14 +1,7 @@
-<!doctype html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-
-	<link rel="stylesheet" href="styles/css/main.css" />
-	
-	<title>Ajax Post Database Example</title>
-</head>
-<body>
-
+<?php 
+	$title = 'Ajax Post Database Example';
+	include('php/header.php'); 
+?>
 
 <div id="main">
 

@@ -47,22 +47,15 @@ if (!empty($_POST) && isset($_POST['search-guilds'])) {
 
 ?>
 
-<!doctype html>
-<html lang="en">
+<?php 
 
-<head>
-	<meta charset="UTF-8" />
-	<title>Guild Searcher</title>
-	<link rel="stylesheet" href="styles/css/main.css" />
-	<script type="text/javascript" src="scripts/jquery.min.js"></script>
-
-
-</head>
-<body>
+	$title = 'World of Warcraft Search API Testing';
+	include('php/header.php'); 
+?>
 
 
 	<div id="main">
-	<h1>Warcraft</h1>
+	<h1>Interacting with the World of Warcraft RESTful API</h1>
 
 	<h2>Character Search</h2>
 	<?php 

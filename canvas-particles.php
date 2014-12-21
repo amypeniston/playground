@@ -1,37 +1,9 @@
-<!doctype html>
-<html lang="en">
+<?php 
+  $title = 'HTML 5 Canvas Element';
+  include('php/header.php'); 
+?>
 
-<head>
-	<meta charset="UTF-8" />
-	<title>Guild Searcher</title>
-	<link rel="stylesheet" href="styles/css/main.css" />
-	<script type="text/javascript" src="scripts/jquery.min.js"></script>
-
-	<style>
-	*{margin:0;padding:0;}
-
-	body {
-		background: #282828;
-		font-family: 'Georgia';
-		line-height: 1.5;
-		letter-spacing: 0.01 rem;
-	}
-
-	canvas{
-	  position:absolute;
-	  border:5px solid rgba(255,255,255,0.1);
-	  box-shadow:inset 0 0 100px #4162a9;
-	  transform:translateZ(0);
-	}
-
-	#main {
-		width: 960px;
-		margin: 50px auto 0 auto;
-	}
-	</style>
-
-</head>
-<body>
+<h1>Using the HTML5 Canvas Element</h1>
 
 <canvas></canvas>
 
