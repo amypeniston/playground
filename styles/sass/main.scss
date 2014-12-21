@@ -1,0 +1,35 @@
+body {
+	background: #282828;
+	font-family: 'Georgia';
+	line-height: 1.5;
+	letter-spacing: 0.01 rem;
+	color: #2F9CF7;
+}
+
+#main {
+	width: 960px;
+	margin: 50px auto 0 auto;
+}
+
+hr {
+	margin-top: 100px;
+}
+
+h1 {
+	font-family: "Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic",Arial,sans-serif;
+}
+
+p {
+	font-family: Georgia,Times,"Times New Roman",serif;
+}
+
+a, a:visited {
+	color: #fff;
+	text-decoration: none;
+	padding-bottom: 2px;
+	border-bottom: 1px solid #fff;
+}
+
+table {
+	border: 1px solid #fff;
+}
